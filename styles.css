@@ -1,0 +1,42 @@
+body {
+   height: 100vh; 
+    
+}
+
+.top, .footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headers {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.headerlinkul {
+    display: flex;
+    color: #e5e8eb;
+    gap: 16px;
+}
+
+.topmain {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    background-color: #1f2937;
+}
+
+.second {
+    
+}
+
+.third {
+    background-color: #e5e7eb;
+}
