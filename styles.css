@@ -1,18 +1,39 @@
 body {
-   height: 100vh; 
+   height: auto; 
+   width: auto;
+   padding: 0;
+   margin: 0;
+}
+
+
+
+
+
+.top, .topmain, .footer {
+    background-color: #1f2937;
+    
+    
     
 }
 
-.top, .footer {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.top {
+    height: 10%;
+    padding-top: 20px;
 }
+
+.testdiv {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 0;
+}
+
 
 .headers {
     color: #F9FAF8;
     font-size: 24px;
+    align-items: start;
+    
 }
 
 ul {
@@ -24,18 +45,24 @@ ul {
     display: flex;
     color: #e5e8eb;
     gap: 16px;
+    
+    
 }
 
 .topmain {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 50px;
-    background-color: #1f2937;
+    padding-top: 20px;
 }
 
-.second {
-    
+#random-pic {
+    height: 150px;
+    width: 300px;
 }
+
+.toptext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 
 .third {
     background-color: #e5e7eb;
