@@ -15,7 +15,7 @@ header {
     background-color: #e5e7eb;
 }
 
-header, .mainsection, .quotes {
+header, .mainsection, .quotes, .signup {
     padding: 1em 20em;
     padding-bottom: 10rem;
 }
@@ -124,5 +124,34 @@ header, .mainsection, .quotes {
     font-size: 36px;
     color: #1f2937;
     padding-right: 9rem;
+    font-weight: bold;
+}
+
+.call2action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: white;
+    padding: 2rem 8rem;
+}
+
+.callbig {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.callsmall {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.callbutton {
+    border: white solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 0.5rem 2rem;
     font-weight: bold;
 }
