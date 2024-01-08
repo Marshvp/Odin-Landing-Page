@@ -155,3 +155,13 @@ header, .mainsection, .quotes, .signup {
     padding: 0.5rem 2rem;
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    background-color: #1f2937;
+    color: #f9faf8;
+
+}
