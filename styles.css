@@ -8,13 +8,16 @@ body {
 
 header {
     background-color: #1f2937;
-    padding: 1em 20em;
-    padding-bottom: 10rem;
-
 }
 
-.mainsection {
+.quotes {
+    
+    background-color: #e5e7eb;
+}
+
+header, .mainsection, .quotes {
     padding: 1em 20em;
+    padding-bottom: 10rem;
 }
 
 
@@ -103,4 +106,23 @@ header {
     
     border: #3882f6 solid;
     border-radius: 10px;
+}
+
+.quotetext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    padding-top: 10rem;
+}
+.quoteauthor {
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+    color: #1f2937;
+    padding-right: 9rem;
+    font-weight: bold;
 }
